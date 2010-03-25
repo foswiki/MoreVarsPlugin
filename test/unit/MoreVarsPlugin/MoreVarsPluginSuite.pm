@@ -1,6 +1,7 @@
 package MoreVarsPluginSuite;
 
-use base qw(Unit::TestSuite);
+use Unit::TestSuite;
+our @ISA = qw( Unit::TestSuite );
 
 sub name { 'MoreVarsPluginSuite' };
 
